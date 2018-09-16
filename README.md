@@ -1,4 +1,4 @@
-[![In progress][0]][1]
+[![in-progress][0]][1]
 
 # send-password-via-email
 An API who encrypt password.
