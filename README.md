@@ -1,4 +1,4 @@
-[![Project Stage Badge: Development][Project Stage Page]
+[Project Stage Badge: Development](https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg)
 
 
 # send-password-via-email
