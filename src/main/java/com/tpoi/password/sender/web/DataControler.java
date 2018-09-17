@@ -44,7 +44,7 @@ public class DataControler
   
   
   @GetMapping("/decode")
-  public DecodedData decodeDataAndReturnClearValue(@RequestParam(required=true) String encodedData,  UUID cipherKeyId) throws
+  public DecodedData decodeDataAndReturnClearValue(@RequestParam String encodedData,  @RequestParam UUID cipherKeyId) throws
                                                                                                        DecryptException
   {
     Optional<CipherKeyEntity> cipherKeyEntityOpt = cipherKeyRepository.findByCipherKeyId(cipherKeyId);
